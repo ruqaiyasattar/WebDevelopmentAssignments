@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html><head><title>table practice</title>
+
+</head>
+<body style="background-color:#fff9e6">
+
+<div class="table" style="background-color:white;height:1500px;width:650px ">
+<form action="demo.php" method="GET">
+<p>Username: 
+<input type="text" name="username" maxlength="30" size="15"/>
+</p>
+<p>Password: 
+<input type="password" name="password" maxlength="30" size="15"/>
+</p>
+<p>What did you think of this gig?</p>
+<textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+
+
+<p>Please select yuour favorite genre:<br/>
+<input type="radio" name="genre" value="Rock" checked="checked"/>Rock
+
+
+<input type="radio" name="genre" value="Pop" checked="checked"/>Pop
+
+
+<input type="radio" name="genre" value="Jazz" checked="checked"/>Jazz
+<br/>
+<p>Please select your favorite music service(s):<br/>
+<input type="checkbox" name="service" value="itunes" checked="checked">iTunes</input>
+
+
+<input type="checkbox" name="service" value="last.fm" >Last.fm</input>
+
+
+<input type="checkbox" name="service" value="spotify">Spotify</input><br/>
+<p>What device do you listen to music on?</p>
+<select name="devices">
+<option value="ipod">iPod</option>
+
+<option value="radio">Radio</option>
+
+<option value="computer">Computer</option>
+</select><br/>
+
+<p>Do you play any of the following instruments?<br/>
+(you can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+<select name="istruments" size="3" multiple="multiple">
+<option value="guitar" selected="selected">guitar</option>
+
+<option value="drums">Drums</option>
+
+<option value="keyboard" selected="selected">Keyboard</option>
+
+<option value="base">Base</option>
+</select><br/>
+<p>Upload your song is MP3 format:</p>
+<input type="file" name="user-song"/><br/>
+<br/>
+<input type="submit" value="upload"/><br/>
+<br/>
+
+<input type="image" src="images/submit.png" width="70" height="30"/><br/>
+<button><img src="images/plus.png" alt="add" width="10" height="10">Add</button>
+<input type="hidden" name="bookmark" value="lyrics"/><br/>
+Notice that the hidden input field is not shown to the user, but the data is sent when the form is submitted.<br/>
+
+<h1>&lt label &gt</h1>
+<label for="age">Age:</label>
+<input type="text" name="age"/><br/>
+Gender:
+<label for="male">Male</label>
+<input id="male" type="radio" name="gander" value="m"/>
+<label for="female">Female</label>
+<input id="female" type="radio" name="gander" value="f"/>
+
+<fieldset>
+
+<legend>Contact details</legend>
+
+<label for ="email">Email:</label><br/><br/>
+<input id="email" type="email" value="" required="required"></input>
+<br/><br/>
+
+<label for ="mobile">Mobile:</label><br/><br/>
+<input id="mobile" type="mobile" value="" required="required"></input><br/><br/>
+
+<label for ="telephone">Telephone:</label><br/><br/>
+<input id="telephone" type="telephone" value="" required="required"></input><br/><br/>
+
+</fieldset>
+<hr/>
+<label for="date">Departure date:</label>
+<input id="date" type="date"></input>&nbsp<input type="submit" value="submit"/>
+<br/><br/>
+<label for="email">Please Enter your email address:</label>
+<input id="email" type="email" required="required"></input>&nbsp<input type="submit" value="submit"/><br/><br/>
+
+<label for="search">Search:</label>
+<input id="search" type="search" placeholder="enter keyword"></input>&nbsp<input type="submit" value="search"/>
+<br/><br/>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
