@@ -1,0 +1,29 @@
+body{
+font-family: Arial, Verdana, sans-serif;
+background-color:#f9f2ec;
+}
+
+h1,h2{
+color:#ff0066;
+}
+
+p{
+color:#665544;
+}
+#pt{
+  	font-style: italic;
+	color:#ff0066;
+}
+
+#cotage_id{
+	font-style: italic;
+	color:#ff0066;
+}
+.ex_pt{
+height:160px;
+width :350px;
+background-color:#ccccb3; 
+}
+h1#ptato{
+font-color:white;
+}

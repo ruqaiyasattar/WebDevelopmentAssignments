@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+<h1>Welcome to My Homepage</h1>
+<div class="intro">
+<p>My name is Donald <span id="Lastname">Duck.</span></p>
+<p id="my-Address">I live in Duckburg.</p>
+<p>I have many friends:</p>
+</div>
+
+<ul id="Listfriends">
+
+<li>Goofy</li>
+<li>Mickey</li>
+<li>Daisy</li>
+<li>Pluto</li>
+</ul>
+
+<p>All my friends are great!<br/>
+But I really like Daisy!!</p>
+
+<p lang="it" title="Hello beautiful">Ciao bella</p>
+<h3>We are all animals!</h3>
+<p><b>My latest discoveries have led me to believe that we are all animals:</b></p>
+
+<table>
+<tr>
+<td scope="col">Name</td>
+<td scope="col">Type of Animal</td>
+</tr>
+
+<tr>
+<td>Mickey</td>
+<td>Mouse</td>
+</tr>
+
+
+<tr>
+<td>Goofey</td>
+<td>Dog</td>
+</tr>
+
+
+<tr>
+<td>Daisy</td>
+<td>Duck</td>
+</tr>
+
+
+<tr>
+<td>Pluto</td>
+<td>Dog</td>
+</tr>
+</table>
+
+<form action="" method="get">
+<h2>Subscribe to my newsletter:</h2>
+<label for="name">Name:</label>&nbsp&nbsp&nbsp&nbsp<input id="name" name="name" type="text"/>
+
+<label for="email">Email:</label>&nbsp&nbsp&nbsp&nbsp<input id="email" name="email" type="email"/>
+</form>
+</body>
+</html>

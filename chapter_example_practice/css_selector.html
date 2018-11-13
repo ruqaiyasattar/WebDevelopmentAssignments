@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Understanding CSS Selector</title>
+<style>
+*{
+color:red;}
+
+h1,a{
+color:red;
+}
+p{
+color:green;
+}
+
+.note{
+color:violet;
+}
+
+p.note{
+color:maroon;
+}
+
+#introduction{
+color:grey;
+}
+
+li > a{
+color:blue;
+}
+
+li a{
+color: pink;
+}
+
+h1+p{
+color:yellow;
+}
+
+h1~p{
+color:black;
+}
+</style>
+</head>
+<body>
+<p>This is paragraph before heading</p>
+<h1 id="top">Kitchen Garden Calendar</h1>
+<p id="introduction">Here you can read our handy guide about what to do when.</p>
+<p class="note">This is a third paragraph</p>
+<h1 class="note">Spring</h1>
+<p>Here comes a paragraph before the unordered list.</p>
+
+<ul>
+<li>
+<div>
+<a href="mulch.html">Spring mulch vegetable beds</a>
+</div>
+</li>
+
+<li>
+<a href="potato.html">Plant out early potatoes</a>
+</li>
+
+<li>
+<a href="tomato.html">Sow tomato seeds</a>
+</li>
+
+<li>
+<a href="beet.html">Sow beet seeds</a>
+</li>
+
+<li><a href="zucchini.html">Sow zucchini seeds</a></li>
+
+<li><a href="rhubard.html">Deadhead rhubard flowers</a></li>
+</ul>
+<p class="note">This page was written by <a href="mailto:ivy@example.org">ivy@example.org</a> for <a href="http://www.example.org">Example</a></p>
+<p><a id="#top">Top of page</a></p>
+</body>
+</html>
