@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ch 11 assignment</title>
+<style type="text/css">
+.jenware{
+text-transform: uppercase;
+}
+
+.testimonl{
+background-color:#cccccc;
+}
+
+h4{
+color:#4da6ff;
+}
+
+h2{
+color:#4da6ff;
+}
+#imge{
+  width: 15px;
+}
+</style>
+</head>
+<body>
+<p>
+<img id="imge"  src="images_ch11/logo.png"/> Jen<span class="jenware">ware</span>&hellip; Make it Personal
+<br/>
+Special occasion call for secial gifts. The Jenware line of houesewares and clothing can be personalized for the ones you love&hellip; the happy couple celebrating their new life together&hellip; the recent graduate&hellip; or a new baby.
+</p>
+
+<p class="testimonl">
+<h4>Testimonials</h4>
+<q>The Jen<span class="jenware">ware</span> onesies were the hit of the baby shower. The custom letter <q>a</q> and handmade quality made this gift really stand out amoung the cookie-cutter clothes from the department store.</q>
+
+
+<q>Thanks for the cool Jen<span class="jenware">ware</span> barware. I couldn't wait until I found <q>Mr.Right,</q>so I just bought a set for myself! My friends always want to know where I got them so I send them to your site.</q>
+</p>
+</body>
+</html>
